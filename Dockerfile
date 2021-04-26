@@ -1,4 +1,4 @@
-FROM registry.okd.ag04.io:5000/openshift/golang:latest as builder
+FROM registry.okd.ag04.io/openshift/golang:latest as builder
 
 WORKDIR /build
 ADD . /build/
